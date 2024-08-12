@@ -7,7 +7,7 @@ Copyright (C) 2024 Antonio C. Domínguez Brito (<antonio.dominguez@ulpgc.es>). D
 ### 0. License 
 
 
-The pwm_lib library is an open source project which is openly available under the GNU General Public License (GPL) license.
+The wdt_lib library is an open source project which is openly available under the GNU General Public License (GPL) license.
 
 ### 1. Introduction
 
