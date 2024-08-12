@@ -1,6 +1,6 @@
 ## wdt_lib v1.0
 
-This is wdt_lib library for using watchdog functionality in Project A-tirma 
+This is wdt_lib library for using the watchdog functionality in Project A-tirma 
 
 Copyright (C) 2024 Antonio C. Domínguez Brito (<antonio.dominguez@ulpgc.es>). División de Robótica y Oceanografía Computacional (<http://www.roc.siani.es>) and Departamento de Informática y Sistemas (<http://www.dis.ulpgc.es>). Universidad de Las Palmas de Gran  Canaria (ULPGC) (<http://www.ulpgc.es>).
   
@@ -13,7 +13,7 @@ The wdt_lib library is an open source project which is openly available under th
 
 This is a C++ library abstracting the use of the hardware watchdog in Project A-Tirma, specifically aimed to the Arduino MKR electronic prototyping platform.
 
-The library allows to create blocks of code "watchdog-guarded". This is illustrated with the following portion of code:
+The library allows to create blocks of code which are protected by a watchdog (*watchdog-guarded*). This is illustrated with the following portion of code:
 
 
 ```
@@ -33,7 +33,7 @@ The library allows to create blocks of code "watchdog-guarded". This is illustra
 
 ```
 
-In this code we are establishing a block of code guarded with a watchdog time of 10 seconds, meaning that, if this code takes more than 10 seconds to complete, the watchdog will reset the system, otherwise it will continue running normalling past the watchdog-guarded block of code.
+In this code we are establishing a block of code guarded with a watchdog time of 10 seconds, meaning that, if this code takes more than 10 seconds to complete, the watchdog will reset the system. Otherwise it will continue running normally past the watchdog-guarded block of code.
 
 ### 2. Examples
 
